@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biobook</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="index.html"><img src="img/logo.png" alt="Rizal High School Logo" class="logo"></a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li>
+                        <a href="#table-contents">Topics</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="topic1.html">Topic 1</a></li>
+                            <li><a href="topic2.html">Topic 2</a></li>
+                            <li><a href="topic3.html">Topic 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section id="hero">
+            <div class="flex-container">
+                <div class="main-text">
+                    <h1>Welcome to <span>Biobook</span></h1>
+                </div>
+                <div class="sub-text">
+                    <p>Offered academic topics is free and supported by a passionate education community.</p>
+                </div>
+
+                <button class="btn" type="submit"><a href="#table-contents">View Full Topics</a></button>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/5.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider-buttons">
+                <button id="prev"></button>
+                <button id="next"></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        
+        <section id="feature">
+            <div class="flex-container">
+                <div class="first-panel">
+                    <h1>How it works</h1>
+                    <p>This is the website we wish we had when we were learning on our own.
+                     We scour the internet looking for only the best resources to 
+                     supplement your learning and present them in a logical order.</p>
+                 </div>
+                 <div class="second-panel">
+                    <div class="card">
+                        <img src="img/book.png" alt="book">
+                        <h3>Learn</h3>
+                        <p>Learn from a curriculum with the best curated online tutorials, 
+                            blogs, and courses.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/laptop.png" alt="laptop">
+                        <h3>Build</h3>
+                        <p>Build dozens of lesson-worthy projects along the way, from simple topic to full programs and deployed curriculums.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/connect.png" alt="connect">
+                        <h3>Connect</h3>
+                        <p>You're not alone. Learn and get help from our friendly community of beginner and experienced professors.</p>
+                    </div>
+                 </div>
+            </div>
+        </section> 
+
+        <section id="table-contents">
+            <div class="flex-container">
+                <h1>Table of Contents</h1>
+                <div class="wrapper">
+                    <div class="title-area">
+                        <img src="img/topic-icon.png" alt="logo">
+                        <h3>Shared Properties of Living Organisms</h3>
+                        <button class="btn" type="submit"><a href="topic1.html">Explore</a></button>
+                    </div>
+                    <div class="description-area">
+                       <p>Explore the foundational principles that define living organisms and their shared properties. This topic serves as a hands-on introduction to essential tools required to understand the intricate world of biology. Delve into the core concepts and gain insights into the essential foundations needed for later courses.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="title-area">
+                        <img src="img/topic-icon.png" alt="logo">
+                        <h3>Connection Among Living Things and Their Interaction with the Environment</h3>
+                        <button class="btn" type="submit"><a href="topic2.html">Explore</a></button>
+                    </div>
+                    <div class="description-area">
+                       <p>Uncover the interconnected web of life as you delve into the relationships among living organisms and their dynamic interaction with the environment. This topic offers a hands-on introduction to the fundamental tools necessary for understanding the delicate balance of ecosystems. Gain valuable insights into the fascinating world of biology and lay the groundwork for more advanced studies.
+                    </p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="title-area">
+                        <img src="img/topic-icon.png" alt="logo">
+                        <h3>Unifying Themes as the Foundation in the Study of Biology</h3>
+                        <button class="btn" type="submit"><a href="topic3.html">Explore</a></button>
+                    </div>
+                    <div class="description-area">
+                       <p>Embark on a journey through the unifying themes that serve as the bedrock for the study of biology. This topic provides a hands-on introduction to essential tools, laying the foundation for a comprehensive understanding of the overarching principles that govern biological systems. Explore the interconnected nature of biological concepts and prepare yourself for a deeper exploration of the study of life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>F Manalo Street Corner E Santos 1600 Pasig City Metro Manila</p>
+                <p><strong>Phone: </strong> +63 994 239 123</p>
+                <p><strong>Hours: </strong> 10:00AM - 18:00PM, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/ringo.mercado.1"><img src="img/fb-icon.png" alt="fb icon"></a>
+                        <a href="#"><img src="img/twt-logo.png" alt="twt logo"></a>
+                        <a href="#"><img src="img/yt-icon.png" alt="yt icon"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h4>Available Store</h4>
+                <p>Pasig City</p>
+            </div>
+    
+            <div class="col">
+                <h4>Support</h4>
+                <p>biobook@gmail.com</p>
+            </div>
+    
+            <div class="col install">
+                <h4>Available Soon On</h4>
+                <p>App Store and Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+    
+            <div class="copyright">
+                <p>© 2023-2024 Biobook. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+
+    </body>
+</html>
