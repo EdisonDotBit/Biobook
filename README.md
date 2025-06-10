@@ -5,3 +5,5 @@ Biobook – A web-based biology education platform designed to provide high-qual
 - Developed collaboratively by a group of student developers from Rizal High School.
 - Tech Stack: Built with HTML, CSS, and Vanilla JavaScript.
 - Version Control & Deployment: Managed using Git and GitHub.
+
+Live Demo: https://edisondotbit.github.io/biobook/
